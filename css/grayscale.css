@@ -399,3 +399,9 @@ body {
 .fresco a{
 boarder: solid 1 px black;
 }
+
+
+.icon-format{
+  margin-left: 15px;
+margin-top: -30px;
+}

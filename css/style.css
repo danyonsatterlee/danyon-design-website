@@ -47,7 +47,7 @@ h2 { font-size: 13px; line-height: 18px; margin-bottom: 0; }
 .demonstrations .rightmost { margin-right: 0; }
 
 .single_image { height=200px;
- } 
+ }
 .clark{
 position: absolute;
 width: 100%;
@@ -65,7 +65,7 @@ top: 20px;
 right: 20px;
 color: #fff;
 text-decoration: none;
-text-transform: uppercase;	
+text-transform: uppercase;
 }
 .image_overlay h2{
 position: absolute;
@@ -74,7 +74,7 @@ left: 20px;
 font-size: 25px;
 color: #fff;
 text-transform: uppercase;
-letter-spacing: 3px;	
+letter-spacing: 3px;
 }
 .image_overlay h4{
 position: absolute;
@@ -82,6 +82,10 @@ bottom: 11px;
 left: 20px;
 color: #fff;
 font-size: 14px;
-text-transform: uppercase;	
+text-transform: uppercase;
 }
 
+.icon-format{
+  margin-left: 15px;
+  margin-top: 40px;
+}
