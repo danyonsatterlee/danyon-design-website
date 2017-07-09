@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+/*HEADER*/
+
+h1{
+ 
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+}
+
+h3{
+   font-family: 'Lora', serif;
+   font-style: italic;
+}
+
+h6{
+     font-family: 'Lora', serif;
+   font-style: italic;
+}
+
+
+.header{
+  background-color: #4AB6C4;
+}
+
+
+.name-header{
+padding-top:40vh;
+}
+
+.connect-header{
+  padding-top: 55vh;
+}
+
+.name-bottom{
+  padding-bottom: 10vh;
+}
+
+.white{
+  color:white;
+}
+
+.angle-right{
+  display:inline;
+  vertical-align: middle;
+}
+
+
+/*EXPLORE*/
+
+
+.grid{
+  position: relative; height: 1200px;
+}
+
+
+/*SKILLS*/
+
+.skills{
+  list-style: none;
+   font-family: 'Lora', serif;
+   color: #95989A;
+
+}
+
+
+.gray{
+ color: #95989A;
+}
+
+
+/*CONNECT*/
+.connect{
+   font-family: 'Lora', serif;
+   font-style: italic;
+   color: #95989A;
+   float:right;
+   display: inline-block;
+   font-size: 1.5em;
+   background-color: transparent;
+   border:none;
+   
+}
+.side{
+  border-left: .5px solid #95989A;
+}
+
+.form-group{
+  padding-bottom: 10px;
+  border-color: #95989A;
+  border-width: .5px;
+  font-family: 'Lora', serif;
+   font-style: italic;
+
+}
+
+.aboutp{
+  margin-top: 20px;
+  color:#95989A;
+  font-family: 'Lora', serif;
+}
+
+
+/*FOOTER*/
+
+.footer{
+  background-color: #4AB6C4;
+  margin-top:2em;
+}
+
+.connect-here{
+  color:white;
+  padding-top:20px;
+  padding-bottom:20px;
+
+}
+
+.footer-icons{
+  padding-right:.5em;
+  padding-left:.5em;
+}
