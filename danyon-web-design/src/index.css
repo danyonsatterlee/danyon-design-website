@@ -125,3 +125,11 @@ padding-top:40vh;
   padding-right:.5em;
   padding-left:.5em;
 }
+
+a .icons:hover{
+  transform: scale(1.2);
+    opacity: 0.5;
+    color:white;
+    text-decoration: none;
+
+   } 
