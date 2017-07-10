@@ -4,7 +4,9 @@ body {
 
 }
 
-
+a{
+  text-decoration: none !important;
+}
 
 /*HEADER*/
 
@@ -19,7 +21,7 @@ h3{
    font-style: italic;
 }
 
-h6{
+h4{
      font-family: 'Lora', serif;
    font-style: italic;
 }
@@ -27,6 +29,7 @@ h6{
 
 .header{
   background-color: #4AB6C4;
+
 }
 
 
@@ -35,8 +38,24 @@ padding-top:40vh;
 }
 
 .connect-header{
-  padding-top: 55vh;
+  margin-top: 30vh;
+  transition:.2s;
+  display:inline-block;
+  padding-bottom:1vh;
+  
 }
+
+.connect-header:hover{
+  -webkit-transform: skew(-10deg);
+  transform: skew(-10deg);
+  color:white;
+
+
+   } 
+
+   .header-inner{
+     padding-top:10px;
+   }
 
 .name-bottom{
   padding-bottom: 10vh;
@@ -47,8 +66,11 @@ padding-top:40vh;
 }
 
 .angle-right{
-  display:inline;
+  display:inline-block;
   vertical-align: middle;
+  margin-bottom: 0px;
+
+
 }
 
 
@@ -80,13 +102,33 @@ padding-top:40vh;
    font-family: 'Lora', serif;
    font-style: italic;
    color: #95989A;
-   float:right;
+  
    display: inline-block;
    font-size: 1.5em;
    background-color: transparent;
    border:none;
+   display:inline-block;
+  
    
 }
+
+.skew{
+ transition:.2s;
+}
+
+.skew:hover{
+    -webkit-transform: skew(-10deg);
+  transform: skew(-10deg);
+}
+
+/*.connect:hover{
+    -webkit-transform: skew(-10deg);
+  transform: skew(-10deg);
+
+}*/
+
+
+
 .side{
   border-left: .5px solid #95989A;
 }
@@ -121,15 +163,42 @@ padding-top:40vh;
 
 }
 
-.footer-icons{
+/*.hvr-skew-forward {
+  display: inline-block;
+  
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+.hvr-skew-forward:hover, .hvr-skew-forward:focus, .hvr-skew-forward:active {
+  -webkit-transform: skew(-10deg);
+  transform: skew(-10deg);
+}*/
+
+.footer-icons {
   padding-right:.5em;
   padding-left:.5em;
+  transition: .4s;
+  color:white;
+  text-decoration: none !important;
 }
+.footer-icons a{
 
-a .icons:hover{
+    text-decoration-line: none !important;
+    text-decoration: none !important;
+
+   } 
+
+.footer-icons:hover{
   transform: scale(1.2);
     opacity: 0.5;
-    color:white;
-    text-decoration: none;
+    text-decoration-line: none !important;
+    text-decoration: none !important;
 
    } 

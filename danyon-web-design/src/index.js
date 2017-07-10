@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import myNav from './containers/navbar.js';
+import MyNav from './containers/navbar.js';
 import Header from './containers/header.js';
 import Explore from './containers/explore.js';
 import Skills from './containers/skills.js';
@@ -12,8 +12,10 @@ class App extends React.Component{
     render(){
         return(
 <div className="container-fluid">
-    <myNav />
-    <Header />
+     <MyNav />
+    <Header>
+       
+    </Header>
     <Explore />
     <Skills />
     <Contact/>

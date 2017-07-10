@@ -1,13 +1,17 @@
 import React from "react";
-
+import WOW from 'wowjs';
 class Skills extends React.Component {
+    componentDidMount() {
+  const wow = new WOW.WOW();
+  wow.init();
+}
     render() {
         return (
             <div>
                 <div className="row">
 
                     <div className="col-md-2 col-md-offset-2 col-sm-12 col-sm-offset-0">
-                        <ul className="skills">
+                        <ul className="skills wow slideInRight" data-wow-offset="10" data-wow-iteration="10" >
                             <li>Javascript, ES6</li>
                             <li>React</li>
                             <li>HTML/CSS</li>

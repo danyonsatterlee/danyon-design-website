@@ -1,7 +1,7 @@
 import React from "react";
 let FontAwesome = require('react-fontawesome');
 
-class myNav extends React.Component{
+class MyNav extends React.Component{
     render(){
         return(
             <div className="container-fluid">
@@ -9,9 +9,9 @@ class myNav extends React.Component{
                     <div className="col-md-12">
              <a  href="https://github.com/danyonsatterlee">
                      <FontAwesome
-                            className="bars"
+                            className="bars white pull-right"
                             name='bars '
-                            size='5x'
+                            size='3x'
                             style={{
                             textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)'
                         }}/> 
@@ -24,4 +24,4 @@ class myNav extends React.Component{
     }
 }
 
-export default myNav;
+export default MyNav;

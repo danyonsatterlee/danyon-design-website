@@ -10,15 +10,15 @@ class Contact extends React.Component {
                     <div className="col-md-3 col-md-offset-2 col-sm-12 col-sm-offset-0">
                         <h1 className="text-center gray">let's connect</h1>
                           <ConntactForm />
-                          <button className="connect">connect
-                              <FontAwesome
-                            className="angle-right pull-right gray"
+                           <a className=" pull-right skew" href="https://github.com/danyonsatterlee">
+                          <button className="connect">connect</button>   <FontAwesome
+                            className="angle-right gray"
                             name='angle-right'
                             size='2x'
                             style={{
                             textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)'
-                        }}/>
-                              </button>     
+                        }}/>  
+                        </a>
                           
                         </div>
                       
