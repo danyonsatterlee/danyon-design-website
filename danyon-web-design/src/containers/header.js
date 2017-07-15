@@ -14,7 +14,7 @@ class Header extends React.Component {
 
 
                     <div className="col-md-2 col-md-offset-2 col-sm-12 col-sm-offset-0">
-                       <a className=" white connect-header hvr-skew-forward" href="https://github.com/danyonsatterlee">
+                       <a className=" white connect-header hvr-skew-forward" href="#connection">
                         <h3 className="connect-header ">Let's Connect 
                    </h3>      <FontAwesome
                             className=" angle-right"

@@ -4,8 +4,8 @@ let FontAwesome = require('react-fontawesome');
 class Contact extends React.Component {
     render() {
         return (
-            <div>
-                <div className="row">
+            <div className="spacer">
+                <div className="row" id="connection">
 
                     <div className="col-md-3 col-md-offset-2 col-sm-12 col-sm-offset-0">
                         <h1 className="text-center gray">let's connect</h1>

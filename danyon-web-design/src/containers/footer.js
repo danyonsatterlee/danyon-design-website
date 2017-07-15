@@ -15,7 +15,7 @@ class Footer extends React.Component{
                             style={{
                             textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)'
                         }}/> </a>
-                         <a className="icons" href="https://github.com/danyonsatterlee">
+                         <a className="icons" href="https://instagram.com/danyonsatterlee">
                            <FontAwesome
                             className="instagram-square footer-icons"
                             name='instagram'
@@ -23,7 +23,7 @@ class Footer extends React.Component{
                             style={{
                             textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)'
                         }}/></a>
-                         <a className="icons" href="https://github.com/danyonsatterlee">
+                         <a className="icons" href="https://www.linkedin.com/in/danyon-satterlee/">
                            <FontAwesome
                             className="linkedin-square footer-icons"
                             name='linkedin-square '

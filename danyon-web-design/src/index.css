@@ -8,6 +8,11 @@ a{
   text-decoration: none !important;
 }
 
+.spacer{
+  margin-top:10em;
+  margin-bottom:10em;
+}
+
 /*HEADER*/
 
 h1{
@@ -29,7 +34,12 @@ h4{
 
 .header{
   background-color: #4AB6C4;
+   margin-top: -100px;
 
+}
+
+.bars{
+  padding: 20px;
 }
 
 
@@ -146,6 +156,84 @@ padding-top:40vh;
   margin-top: 20px;
   color:#95989A;
   font-family: 'Lora', serif;
+}
+.explore1{
+  height: 300px;
+  width:100%;
+  background-image: url("/img/web/moss/moss.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.explore2{
+  height: 400px;
+  width:100%;
+   background-image: url("/img/web/ticky-tacky/ticky.png");
+  background-size: 200%;
+  background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.explore3{
+  height: 500px;
+  width:100%;
+   background-image: url("/img/web/timony/timony.png");
+  background-size: 200%;
+  background-repeat: no-repeat;
+    background-position: center;
+
+}
+.explore4{
+  height: 200px;
+  width:50%;
+   background-image: url("/img/web/shakespeare/shakespeare.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+    background-position: center;
+  display:inline-block;
+
+}
+.explore5{
+  height: 200px;
+  width:50%;
+   background-image: url("/img/web/weather.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+    background-position: center;
+   display:inline-block;
+
+}
+
+.explore6{
+  height: 500px;
+  width:100%;
+     background-image: url("/img/web/bighorn.png");
+  background-size: 400%;
+  background-repeat: no-repeat;
+    background-position: left;
+
+
+}
+
+.explore7{
+  height: 200px;
+  width:50%;
+     background-image: url("/img/web/nopical/login.png");
+  background-size: 210%;
+  background-repeat: no-repeat;
+    background-position: top;
+     display:inline-block;
+
+
+}
+
+
+ .no-marg{
+   padding:0px !important;
+
 }
 
 

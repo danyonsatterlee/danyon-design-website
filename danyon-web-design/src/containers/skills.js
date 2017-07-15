@@ -7,13 +7,13 @@ class Skills extends React.Component {
 }
     render() {
         return (
-            <div>
+            <div className="spacer">
                 <div className="row">
 
                     <div className="col-md-2 col-md-offset-2 col-sm-12 col-sm-offset-0">
                         <ul className="skills wow slideInRight" data-wow-offset="10" data-wow-iteration="10" >
                             <li>Javascript, ES6</li>
-                            <li>React</li>
+                            <li>React/Redux</li>
                             <li>HTML/CSS</li>
                             <li>jQuery</li>
                             <li>Bootstrap</li>
