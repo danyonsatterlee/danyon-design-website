@@ -1,13 +1,10 @@
 import React from "react";
 import WOW from 'wowjs';
 class Skills extends React.Component {
-    componentDidMount() {
-  const wow = new WOW.WOW();
-  wow.init();
-}
+
     render() {
         return (
-            <div className="spacer">
+            <div className="spacer" id="skills">
                 <div className="row">
 
                     <div className="col-md-2 col-md-offset-2 col-sm-12 col-sm-offset-0">
