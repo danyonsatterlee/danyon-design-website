@@ -13,6 +13,16 @@ a{
   margin-bottom:10em;
 }
 
+.skill-space{
+    margin-top:40vh;
+  margin-bottom:30vh;
+}
+
+.skill-div{
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
 /*HEADER*/
 
 h1{
@@ -35,12 +45,29 @@ h4{
 .header{
   background-color: #4AB6C4;
    margin-top: -100px;
+   height: 90vh;
 
 }
 
 .bars{
   padding: 20px;
+  display: block;
 }
+
+.nav-custom a{
+
+  list-style: none;
+   font-family: 'Lora', serif;
+   color: #95989A;
+  font-size:2em;
+
+   text-align: right;
+
+
+  } 
+  .nav-right{
+    display: block;
+  }
 
 .menu-enter {
   max-height: 0px;

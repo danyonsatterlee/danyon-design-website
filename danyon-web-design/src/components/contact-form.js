@@ -1,11 +1,12 @@
 import React from "react";
-
+let FontAwesome = require('react-fontawesome');
 class ContactForm extends React.Component {
     render() {
         return (
 
             <div>
-             
+             <form action="https://formspree.io/danyon.satterlee@gmail.com"
+      method="POST">
                         <div className="form-group">
                             <input
                                 type="text"
@@ -39,7 +40,19 @@ class ContactForm extends React.Component {
                                 id="Message"
                                 placeholder="Message"></textarea>
 
+                                
+
                         </div>
+                         <a className=" pull-right skew" href="https://github.com/danyonsatterlee">
+                          <button type="submit" className="connect">connect</button>   <FontAwesome
+                            className="angle-right gray"
+                            name='angle-right'
+                            size='2x'
+                            style={{
+                            textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)'
+                        }}/> 
+                             </a>
+                        </form>
                     </div>
           
        

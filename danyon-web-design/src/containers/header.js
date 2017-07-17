@@ -1,14 +1,18 @@
-import React from "react"
+import React from "react";
+import WOW from 'wowjs';
 let FontAwesome = require('react-fontawesome');
 class Header extends React.Component {
+        componentDidMount() {
+    new WOW.WOW().init();
+  }
     render() {
         return (
            
                 <div className="row header">
                     <div className="col-md-4 col-md-offset-2 col-sm-12 col-sm-offset-0">
-                       
-                        <h1 className="white name-header">danyon satterlee</h1>
-                        <h4 className="white name-bottom">developer, designer</h4>
+                    
+                        <h1 className="white name-header wow fadeInRight" data-wow-offset="70"  data-wow-iteration="1" >danyon satterlee</h1>
+                        <h4 className="white name-bottom wow fadeInLeft" data-wow-offset="70"  data-wow-iteration="1">developer, designer</h4>
                        
                     </div>
 

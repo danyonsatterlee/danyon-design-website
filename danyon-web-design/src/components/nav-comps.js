@@ -23,23 +23,25 @@ class DropDown extends React.Component {
   render() {
     let menu;
     if(this.state.menuActive) {
-      menu = <div>
-          <div className="menu-bk">
-                <ul className="skills">
+      menu = 
+          <div className="nav-right">
+              
+                <ul className="nav-custom">
                   <a href="#explore"><li>explore</li></a>
                   <a  href="#skills"><li>skills </li></a>
                   <a  href="#connection"><li>connect</li></a>
                    <a href="#connection"><li>about</li></a>
                 </ul>
               </div>
-               </div>
+              
     } else {
       menu = "";
     }
     return ( 
       <div id = "menu">
-        <i className = "fa fa-bars white pull-right" onClick = { this.toggleMenu }/> 
+        <i className = "fa fa-bars bars fa-3x white pull-right" onClick = { this.toggleMenu }/> 
       <CSSTransitionGroup transitionName = "menu" transitionEnterTimeout={1000} transitionLeaveTimeout={1000}> 
+       
         {menu} 
       </CSSTransitionGroup>
     </div>
