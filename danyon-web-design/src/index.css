@@ -158,6 +158,7 @@ padding-top:40vh;
   list-style: none;
    font-family: 'Lora', serif;
    color: #95989A;
+   font-size: 1.5em;
 
 }
 
@@ -217,13 +218,50 @@ padding-top:40vh;
   color:#95989A;
   font-family: 'Lora', serif;
 }
+
+.wrapperImage {
+    position: relative;
+    width: 50%;
+}
+.wrapperImage:hover .image {
+  opacity: 0.3;
+}
+
+.wrapperImage:hover .middle {
+  opacity: 1;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
 .explore1{
+
   height: 300px;
   width:100%;
   background-image: url("/img/web/moss/moss.png");
   background-size: 100%;
   background-repeat: no-repeat;
     background-position: center;
+      transition: .5s ease;
+  backface-visibility: hidden;
+
+ 
+  opacity: 1;
+  
 
 }
 
@@ -234,6 +272,8 @@ padding-top:40vh;
   background-size: 200%;
   background-repeat: no-repeat;
     background-position: center;
+
+ 
 
 }
 
