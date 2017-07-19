@@ -3,24 +3,26 @@ import React from "react";
 class ExploreComps extends React.Component {
 
     render() {
-        return (
-            <div>
-                <MyNav></MyNav>
+    
+         
+             let onePortrait = this.props.explore.map((item)=>{
+    return(
+        <div>
                 <div className="row">
-                    <hr></hr>
-                    <div className="col-md-4 col-md-offset-2 col-sm-12 col-sm-offset-0 no-marg">
+                   
+                    <div className="col-md-6 col-md-offset-0 col-sm-12 col-sm-offset-0 no-marg">
 
-                        <h1>{this.props.title}</h1>
+                        <h1>{item.title}</h1>
                         <div>
-                            {this.props.description}
+                            {item.description}
                         </div>
                         <h3>technology</h3>
                         <div>
-                            {this.props.tech}
+                            {item.tech}
                         </div>
                     </div>
 
-                    <div className="col-md-4  col-sm-12 col-sm-offset-0 no-marg">
+                    <div className="col-md-6  col-sm-12 col-sm-offset-0 no-marg">
 
                         
                         <div>
@@ -31,11 +33,16 @@ class ExploreComps extends React.Component {
                     
                 </div>
                  <hr></hr>
+                 </div>
                
-            </div>
-
+        
         );
-    }
+     });
+    return(
+    <div>{onePortrait}</div>
+    );
+}
 }
 
+    
 export default ExploreComps;

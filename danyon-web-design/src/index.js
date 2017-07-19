@@ -1,25 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {BrowserRouter, Switch, Route} from "react-router-dom";
 import './index.css';
-import MyNav from './containers/navbar.js';
-import Header from './containers/header.js';
+import Home from './containers/home.js'
+
+import AllExplore from './containers/allexplore.js';
+
 import Explore from './containers/explore.js';
-import Skills from './containers/skills.js';
-import Contact from './containers/connect.js';
-import Footer from './containers/footer.js';
+
 
 class App extends React.Component{
     render(){
         return(
 <div className="container-fluid">
-     <MyNav />
-    <Header>
-       
-    </Header>
-    <Explore />
-    <Skills />
-    <Contact/>
-    <Footer/>
+
+    <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/allexplore" component={AllExplore}/>
+  
+        </Switch>
+      </BrowserRouter>
+   
+
+  
+ 
 
 </div>
         );
