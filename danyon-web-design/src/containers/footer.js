@@ -31,7 +31,7 @@ class Footer extends React.Component{
                             style={{
                             textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)'
                         }}/></a>
-                         <a  className="icons" href="https://github.com/danyonsatterlee">
+                         <a  className="icons" target="_blank" href="danyon.satterlee@gmail.com">
                               <FontAwesome
                             className="envelop-o footer-icons"
                             name='envelope-o'

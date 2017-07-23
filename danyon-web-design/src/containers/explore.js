@@ -7,7 +7,7 @@ class Explore extends React.Component{
   }
     render(){
         return(
-            <div className="spacer" id="explore">
+            <div className="spacer" id="try">
             <div className="row">
                 <div className="col-md-4 col-md-offset-2 col-sm-12 col-sm-offset-0 no-marg">
                 <h1 className="gray">explore</h1>

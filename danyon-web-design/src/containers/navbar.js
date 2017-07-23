@@ -1,54 +1,50 @@
 import React from "react";
 import {Link} from "react-router-dom";
-// import DropDown from '../components/nav-comps.js';
+import {HashLink} from 'react-router-hash-link';
 import {Navbar, NavItem, Nav} from "react-bootstrap";
+import FontAwesome from "react-fontawesome";
 
-let FontAwesome = require('react-fontawesome');
+// import DropDown from '../components/nav-comps.js';
 
 class MyNav extends React.Component {
-    render() {
-        return (
-            // <div className="container-fluid">
-            <Navbar collapseOnSelect fluid className="nav-custom">
-                <Navbar.Header>
-       
-<Navbar.Toggle/>
-                </Navbar.Header>
-                <Navbar.Collapse>
+  render() {
+    return (
+      <Navbar collapseOnSelect fluid className="nav-custom">
+        <Navbar.Header>
+          <Navbar.Toggle/>
+        </Navbar.Header>
+        <Navbar.Collapse >
+          <Nav pullRight>
+         <NavItem>
+              <HashLink to="/#try">
+                <li>explore</li>
+              </HashLink>
+            </NavItem>
 
-                    <Nav pullRight>
- <NavItem>
-                            <Link to="/#explore">
-                                <li>explore</li>
-                            </Link>
-                        </NavItem>
-                       
-                        <NavItem>
-                            <Link to="/#skills">
-                                <li>skills
-                                </li>
-                            </Link>
-                        </NavItem>
-                   
-                        <NavItem>
-                            <Link to="/#connection">
-                                <li>connect</li>
-                            </Link>
-                        </NavItem>
-                     
-                        <NavItem>
-                            <Link to="/#connection">
-                                <li>about</li>
-                            </Link>
-                        </NavItem>
+            <NavItem>
+              <HashLink to="/#skills">
+                <li>skills</li>
+              </HashLink>
+            </NavItem>
 
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
-       
+            <NavItem>
+              <HashLink to="/#connection">
+                <li>connect</li>
+              </HashLink>
+            </NavItem>
 
-        )
-    }
+               <NavItem>
+              <HashLink to="/">
+                <li>home</li>
+              </HashLink>
+            </NavItem>
+
+          
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    )
+  }
 }
 
 export default MyNav;
