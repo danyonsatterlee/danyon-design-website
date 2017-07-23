@@ -1,23 +1,20 @@
 import React from "react";
-// import {Link} from "react-router-dom";
-class ExploreComps extends React.Component {
+import {Link} from "react-router-dom";
+class GitHubExplpre extends React.Component {
     
 
     render() {
     
          
-             let oneProject= this.props.explore.map((item)=>{
+             let github = this.props.explore.map((item)=>{
     return(
         <div>
-                <div className="row">
-                   
-                    <div className="col-md-6 col-md-offset-0 col-sm-12 col-sm-offset-0 no-marg">
-
+                
                         <h1>{item.title}</h1>
                         <div>
                             {item.description}
                             <div>
-                           <a href="{`${item.url}`}" className="explore-link">{item.url}</a>
+                           <a href="{`${item.url}`}">{item.url}</a>
                             </div>
                         </div>
 
@@ -44,10 +41,10 @@ class ExploreComps extends React.Component {
         );
      });
     return(
-    <div>{oneProject}</div>
+    <div>{github}</div>
     );
 }
 }
 
     
-export default ExploreComps;
+export default GitHubExplpre;

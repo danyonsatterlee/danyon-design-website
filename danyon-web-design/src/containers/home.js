@@ -13,11 +13,13 @@ class Home extends React.Component{
 <div>
  
      <MyNav/>
+     <div className="container-fluid">
     <Header> </Header>
     <Explore />
     <Skills />
     <Contact/>
     <Footer/>
+    </div>
   
     </div>
   

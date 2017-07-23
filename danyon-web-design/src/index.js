@@ -12,7 +12,7 @@ import Explore from './containers/explore.js';
 class App extends React.Component{
     render(){
         return(
-<div className="container-fluid">
+
 
     <BrowserRouter>
         <Switch>
@@ -26,7 +26,7 @@ class App extends React.Component{
   
  
 
-</div>
+
         );
     }
 }
