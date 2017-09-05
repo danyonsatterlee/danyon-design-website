@@ -59,7 +59,7 @@ class AllExplore extends React.Component{
           <div>
             < MyNav></ MyNav>
                <div className="row">
-                <div className="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 no-marg">
+                <div className="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-0 no-marg">
                   <h1 className="text-center explore-here gray">web development</h1>
 
 <ExploreComps explore={explore}></ExploreComps>

@@ -16,7 +16,7 @@ class MyNav extends React.Component {
         <Navbar.Collapse >
           <Nav pullRight>
          <NavItem>
-              <HashLink to="/#try">
+              <HashLink to="/#ex">
                 <li>explore</li>
               </HashLink>
             </NavItem>
@@ -33,11 +33,11 @@ class MyNav extends React.Component {
               </HashLink>
             </NavItem>
 
-               <NavItem>
+               {/*<NavItem>
               <HashLink to="/">
                 <li>home</li>
               </HashLink>
-            </NavItem>
+            </NavItem>*/}
 
           
           </Nav>

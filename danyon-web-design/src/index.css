@@ -358,6 +358,11 @@ transition: .5s;
 
    } 
 
+.portfolio:hover{
+  transition: .5s;
+  opacity: .5;
+
+}
   .explore-link:hover{
 color: #4AB6C4 !important;
 transition: .5s;
