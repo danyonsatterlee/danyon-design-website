@@ -7,10 +7,9 @@ import Home from './containers/home.js'
 import AllExplore from './containers/allexplore.js';
 
 import Explore from './containers/explore.js';
-import ReactGA from 'react-ga';
+let ReactGA = require('react-ga');
 
 ReactGA.initialize('UA-72855452-1');
-
 
 function logPageView() {
   ReactGA.set({ page: window.location.pathname + window.location.search });
