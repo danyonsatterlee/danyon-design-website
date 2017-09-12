@@ -31,17 +31,20 @@ class Skills extends React.Component {
                             <li>Mongoose</li>
                             <li>JSON</li>
                             <li>MongoDB</li>
+                            <li>Git</li>
+                            
 
                         </ul>
                     </div>
                     <div className="col-md-2 col-sm-12 col-sm-offset-0">
                         <ul className="skills wow fadeInRight" data-wow-offset="70" data-wow-delay="1s" data-wow-iteration="1" >
-                            <li>Git</li>
+                            
                             <li>
                                 Mocha/Chai</li>
                             <li>JSON</li>
                             <li>Photoshop</li>
-                            <li>Adobe Illustrator</li>
+                            <li>Illustrator</li>
+                            <li>RESTful API</li>
 
                         </ul>
                     </div>

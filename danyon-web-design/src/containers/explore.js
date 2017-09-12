@@ -31,7 +31,7 @@ class Explore extends React.Component{
                    
                      <Link to = "/allexplore"><div className="explore6 portfolio wow fadeIn" data-wow-offset="70" data-wow-delay="1.25s" data-wow-iteration="1"></div></Link>
                       {/*<Link to = "/allexplore"><div className="explore4 portfolio wow fadeIn" data-wow-offset="70" data-wow-delay="2s" data-wow-iteration="1"></div></Link>*/}
-                     <Link to = "/allexplore"><div className="explore5 wow portfolio fadeIn" data-wow-offset="70" data-wow-delay="2.25s" data-wow-iteration="1"></div></Link>
+                     <Link to = "/allexplore/"><div className="explore5 wow portfolio fadeIn" data-wow-offset="70" data-wow-delay="2.25s" data-wow-iteration="1"></div></Link>
                     
                 </div>
             </div>
