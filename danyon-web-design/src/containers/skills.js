@@ -11,7 +11,7 @@ class Skills extends React.Component {
             <div className="skill-space" id="skills">
                   <hr></hr>
                 <div className="skill-div">
-              
+
                 <div className="row">
 
                     <div className="col-md-2 col-md-offset-2 col-sm-12 col-sm-offset-0">
@@ -32,13 +32,11 @@ class Skills extends React.Component {
                             <li>JSON</li>
                             <li>MongoDB</li>
                             <li>Git</li>
-                            
-
                         </ul>
                     </div>
                     <div className="col-md-2 col-sm-12 col-sm-offset-0">
                         <ul className="skills wow fadeInRight" data-wow-offset="70" data-wow-delay="1s" data-wow-iteration="1" >
-                            
+
                             <li>
                                 Mocha/Chai</li>
                             <li>JSON</li>
